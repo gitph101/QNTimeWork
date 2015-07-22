@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E20CB7531B5F2F5100188CAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CB7521B5F2F5100188CAA /* Info.plist */; };
-		E245983B1B577F50000DF87B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245983A1B577F50000DF87B /* AppDelegate.swift */; };
+		E20CB7561B5F2FDD00188CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CB7541B5F2FDD00188CAA /* AppDelegate.swift */; };
+		E20CB7571B5F2FDD00188CAA /* QNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CB7551B5F2FDD00188CAA /* QNMainViewController.swift */; };
+		E20CB75C1B5F301500188CAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20CB7581B5F301500188CAA /* LaunchScreen.xib */; };
+		E20CB75D1B5F301500188CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CB75A1B5F301500188CAA /* Main.storyboard */; };
+		E20CB75F1B5F304100188CAA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20CB75E1B5F304100188CAA /* Media.xcassets */; };
 		E245983E1B577F50000DF87B /* QNTimeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E245983C1B577F50000DF87B /* QNTimeWork.xcdatamodeld */; };
-		E24598431B577F50000DF87B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24598411B577F50000DF87B /* Main.storyboard */; };
-		E24598481B577F50000DF87B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24598461B577F50000DF87B /* LaunchScreen.xib */; };
 		E24598541B577F50000DF87B /* QNTimeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24598531B577F50000DF87B /* QNTimeWorkTests.swift */; };
-		E24598601B578F81000DF87B /* QNMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245985F1B578F81000DF87B /* QNMainViewController.swift */; };
 		E24598631B5795C8000DF87B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24598621B5795C8000DF87B /* Utility.swift */; };
 		E24598661B579B13000DF87B /* QNTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24598651B579B13000DF87B /* QNTabbarView.swift */; };
 		E24598691B579E87000DF87B /* QNMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24598681B579E87000DF87B /* QNMainView.swift */; };
 		E2709D7D1B5DE8B500130039 /* QNMainTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2709D7C1B5DE8B500130039 /* QNMainTimeViewController.swift */; };
 		E2709D7F1B5E102700130039 /* QNMainTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2709D7E1B5E102700130039 /* QNMainTimeView.swift */; };
 		E2709D831B5E335D00130039 /* QNMainTimeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2709D821B5E335D00130039 /* QNMainTimeViewCell.swift */; };
-		E2E5B3E51B5CC265002D3B75 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E5B3E41B5CC265002D3B75 /* Media.xcassets */; };
 		E2E5B3E71B5CDB19002D3B75 /* QNSelectTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5B3E61B5CDB19002D3B75 /* QNSelectTaskViewController.swift */; };
 		E2F2FEA51B58DA12001398FB /* QNBelowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2FEA41B58DA12001398FB /* QNBelowView.swift */; };
 /* End PBXBuildFile section */
@@ -37,22 +37,22 @@
 
 /* Begin PBXFileReference section */
 		E20CB7521B5F2F5100188CAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		E20CB7541B5F2FDD00188CAA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		E20CB7551B5F2FDD00188CAA /* QNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainViewController.swift; sourceTree = SOURCE_ROOT; };
+		E20CB7591B5F301500188CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		E20CB75B1B5F301500188CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		E20CB75E1B5F304100188CAA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = SOURCE_ROOT; };
 		E24598351B577F50000DF87B /* QNTimeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNTimeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E245983A1B577F50000DF87B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E245983D1B577F50000DF87B /* QNTimeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QNTimeWork.xcdatamodel; sourceTree = "<group>"; };
-		E24598421B577F50000DF87B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E24598471B577F50000DF87B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E245984D1B577F50000DF87B /* QNTimeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNTimeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24598521B577F50000DF87B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24598531B577F50000DF87B /* QNTimeWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QNTimeWorkTests.swift; sourceTree = "<group>"; };
-		E245985F1B578F81000DF87B /* QNMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainViewController.swift; sourceTree = "<group>"; };
 		E24598621B5795C8000DF87B /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		E24598651B579B13000DF87B /* QNTabbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNTabbarView.swift; sourceTree = "<group>"; };
 		E24598681B579E87000DF87B /* QNMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainView.swift; sourceTree = "<group>"; };
 		E2709D7C1B5DE8B500130039 /* QNMainTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainTimeViewController.swift; sourceTree = "<group>"; };
 		E2709D7E1B5E102700130039 /* QNMainTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainTimeView.swift; sourceTree = "<group>"; };
 		E2709D821B5E335D00130039 /* QNMainTimeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainTimeViewCell.swift; sourceTree = "<group>"; };
-		E2E5B3E41B5CC265002D3B75 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = QNTimeWork/Media.xcassets; sourceTree = SOURCE_ROOT; };
 		E2E5B3E61B5CDB19002D3B75 /* QNSelectTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNSelectTaskViewController.swift; sourceTree = "<group>"; };
 		E2F2FEA41B58DA12001398FB /* QNBelowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNBelowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,12 +99,12 @@
 				E24598671B579BDD000DF87B /* QNMainViewController */,
 				E24598641B579AA4000DF87B /* QNMianView */,
 				E24598611B5795C8000DF87B /* Utility */,
-				E245983A1B577F50000DF87B /* AppDelegate.swift */,
-				E245985F1B578F81000DF87B /* QNMainViewController.swift */,
-				E24598411B577F50000DF87B /* Main.storyboard */,
-				E24598461B577F50000DF87B /* LaunchScreen.xib */,
+				E20CB7541B5F2FDD00188CAA /* AppDelegate.swift */,
+				E20CB7551B5F2FDD00188CAA /* QNMainViewController.swift */,
 				E245983C1B577F50000DF87B /* QNTimeWork.xcdatamodeld */,
-				E2E5B3E41B5CC265002D3B75 /* Media.xcassets */,
+				E20CB7581B5F301500188CAA /* LaunchScreen.xib */,
+				E20CB75A1B5F301500188CAA /* Main.storyboard */,
+				E20CB75E1B5F304100188CAA /* Media.xcassets */,
 				E24598381B577F50000DF87B /* Supporting Files */,
 			);
 			path = QNTimeWork;
@@ -246,9 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20CB7531B5F2F5100188CAA /* Info.plist in Resources */,
-				E24598431B577F50000DF87B /* Main.storyboard in Resources */,
-				E2E5B3E51B5CC265002D3B75 /* Media.xcassets in Resources */,
-				E24598481B577F50000DF87B /* LaunchScreen.xib in Resources */,
+				E20CB75C1B5F301500188CAA /* LaunchScreen.xib in Resources */,
+				E20CB75F1B5F304100188CAA /* Media.xcassets in Resources */,
+				E20CB75D1B5F301500188CAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20CB7561B5F2FDD00188CAA /* AppDelegate.swift in Sources */,
 				E2709D831B5E335D00130039 /* QNMainTimeViewCell.swift in Sources */,
 				E2E5B3E71B5CDB19002D3B75 /* QNSelectTaskViewController.swift in Sources */,
 				E2709D7F1B5E102700130039 /* QNMainTimeView.swift in Sources */,
@@ -273,9 +274,8 @@
 				E24598661B579B13000DF87B /* QNTabbarView.swift in Sources */,
 				E24598631B5795C8000DF87B /* Utility.swift in Sources */,
 				E24598691B579E87000DF87B /* QNMainView.swift in Sources */,
-				E24598601B578F81000DF87B /* QNMainViewController.swift in Sources */,
 				E245983E1B577F50000DF87B /* QNTimeWork.xcdatamodeld in Sources */,
-				E245983B1B577F50000DF87B /* AppDelegate.swift in Sources */,
+				E20CB7571B5F2FDD00188CAA /* QNMainViewController.swift in Sources */,
 				E2709D7D1B5DE8B500130039 /* QNMainTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,20 +299,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E24598411B577F50000DF87B /* Main.storyboard */ = {
+		E20CB7581B5F301500188CAA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E24598421B577F50000DF87B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E24598461B577F50000DF87B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E24598471B577F50000DF87B /* Base */,
+				E20CB7591B5F301500188CAA /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ../Utility;
+			sourceTree = "<group>";
+		};
+		E20CB75A1B5F301500188CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20CB75B1B5F301500188CAA /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
