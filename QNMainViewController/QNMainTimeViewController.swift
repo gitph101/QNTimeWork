@@ -55,7 +55,22 @@ class QNMainTimeViewController: UIViewController,UITableViewDelegate,UITableView
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 80
     }
+    
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        var headView = QNMainTimeTableSectionHeadView()
+        headView.frame = CGRectMake(0, 0, Utility.kWidth, 60)
+        headView.setUI()
+        return headView
+    }
 
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 60
+    }
+    
+    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.1
+    }
     /*
     // MARK: - Navigation
 

@@ -2,7 +2,7 @@
 //  QNMainTimeView.swift
 //  QNTimeWork
 //
-//  Created by 研究院01 on 15/7/21.
+//  Created by 研究院01 on 15/7/22.
 //  Copyright (c) 2015年 Loser. All rights reserved.
 //
 
