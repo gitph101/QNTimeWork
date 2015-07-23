@@ -53,13 +53,25 @@ class QNMainView: UIView {
         
         addButton.addTarget(self, action: "addButtonClick:", forControlEvents: UIControlEvents.TouchUpInside)
         
+        //各个项目
+        for i in 1...4 {
+            var itemView:QNMainItemView = QNMainItemView()
+            itemView.tag = i
+            itemView.frame = CGRectMake(CGFloat(i)%2 * bounds.width, CGFloat(i)/2 * bounds.height, Utility.kWidth/2, bounds.height/2)
+            addSubview(itemView)
+            var tapGes = UITapGestureRecognizer(target: self, action: "tapClick:")
+            addGestureRecognizer(tapGes)
+        }
+        
     }
-    
-    
     func addButtonClick(button:UIButton){
         var applicationDelegate: UIApplicationDelegate = UIApplication.sharedApplication().delegate!
         var appdelegat:AppDelegate = applicationDelegate as! AppDelegate
         var selectVc:QNSelectTaskViewController = QNSelectTaskViewController()
         appdelegat.mainNav?.pushViewController(selectVc, animated: true)
+    }
+    
+    func tapClick(tap:UITapGestureRecognizer){
+    
     }
 }

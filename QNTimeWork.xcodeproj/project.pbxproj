@@ -15,6 +15,7 @@
 		E20CB75F1B5F304100188CAA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20CB75E1B5F304100188CAA /* Media.xcassets */; };
 		E20CB7621B5F327D00188CAA /* QNMainTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CB7611B5F327D00188CAA /* QNMainTimeView.swift */; };
 		E20CB7641B5F32C000188CAA /* QNMainTimeTableSectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CB7631B5F32C000188CAA /* QNMainTimeTableSectionHeadView.swift */; };
+		E210B1E21B60CF0100433897 /* QNMainItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210B1E11B60CF0100433897 /* QNMainItemView.swift */; };
 		E245983E1B577F50000DF87B /* QNTimeWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E245983C1B577F50000DF87B /* QNTimeWork.xcdatamodeld */; };
 		E24598541B577F50000DF87B /* QNTimeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24598531B577F50000DF87B /* QNTimeWorkTests.swift */; };
 		E24598631B5795C8000DF87B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24598621B5795C8000DF87B /* Utility.swift */; };
@@ -45,6 +46,7 @@
 		E20CB75E1B5F304100188CAA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = SOURCE_ROOT; };
 		E20CB7611B5F327D00188CAA /* QNMainTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainTimeView.swift; sourceTree = "<group>"; };
 		E20CB7631B5F32C000188CAA /* QNMainTimeTableSectionHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainTimeTableSectionHeadView.swift; sourceTree = "<group>"; };
+		E210B1E11B60CF0100433897 /* QNMainItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainItemView.swift; sourceTree = "<group>"; };
 		E24598351B577F50000DF87B /* QNTimeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNTimeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E245983D1B577F50000DF87B /* QNTimeWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QNTimeWork.xcdatamodel; sourceTree = "<group>"; };
 		E245984D1B577F50000DF87B /* QNTimeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QNTimeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +163,7 @@
 				E20CB7611B5F327D00188CAA /* QNMainTimeView.swift */,
 				E2709D821B5E335D00130039 /* QNMainTimeViewCell.swift */,
 				E20CB7631B5F32C000188CAA /* QNMainTimeTableSectionHeadView.swift */,
+				E210B1E11B60CF0100433897 /* QNMainItemView.swift */,
 			);
 			name = QNMianView;
 			path = QNTabbarView;
@@ -284,6 +287,7 @@
 				E20CB7641B5F32C000188CAA /* QNMainTimeTableSectionHeadView.swift in Sources */,
 				E2F2FEA51B58DA12001398FB /* QNBelowView.swift in Sources */,
 				E24598661B579B13000DF87B /* QNTabbarView.swift in Sources */,
+				E210B1E21B60CF0100433897 /* QNMainItemView.swift in Sources */,
 				E24598631B5795C8000DF87B /* Utility.swift in Sources */,
 				E24598691B579E87000DF87B /* QNMainView.swift in Sources */,
 				E245983E1B577F50000DF87B /* QNTimeWork.xcdatamodeld in Sources */,

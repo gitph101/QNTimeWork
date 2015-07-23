@@ -28,6 +28,8 @@ class QNMainTimeViewController: UIViewController,UITableViewDelegate,UITableView
         tabbarView?.delegate = self
         view.addSubview(tabbarView!)
         tabbarView!.registerClass(QNMainTimeViewCell.self, forCellReuseIdentifier: "cell")        // Do any additional setup after loading the view.
+        tabbarView?.separatorStyle = UITableViewCellSeparatorStyle.None
+    
 
     }
     
