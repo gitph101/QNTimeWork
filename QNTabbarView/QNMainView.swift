@@ -72,6 +72,8 @@ class QNMainView: UIView {
     }
     
     func tapClick(tap:UITapGestureRecognizer){
-    
+        var mianVc:UIViewController = QNMainItemViewController()
+        var appdelegate:AppDelegate = Utility.delegate
+        appdelegate.mainNav?.pushViewController(mianVc, animated: true)
     }
 }

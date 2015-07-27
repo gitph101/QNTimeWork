@@ -19,7 +19,7 @@ class Utility: NSObject {
         // 字体相关。
     static let titleFont = UIFont.systemFontOfSize(16)
     static let categoryFont = UIFont.systemFontOfSize(12)
-    let delegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    static let delegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
     
 }

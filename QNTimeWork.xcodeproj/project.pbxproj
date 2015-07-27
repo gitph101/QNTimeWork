@@ -25,6 +25,7 @@
 		E2709D831B5E335D00130039 /* QNMainTimeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2709D821B5E335D00130039 /* QNMainTimeViewCell.swift */; };
 		E2E5B3E71B5CDB19002D3B75 /* QNSelectTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5B3E61B5CDB19002D3B75 /* QNSelectTaskViewController.swift */; };
 		E2F2FEA51B58DA12001398FB /* QNBelowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2FEA41B58DA12001398FB /* QNBelowView.swift */; };
+		E2FB5EBB1B61DB50003A4C92 /* QNMainItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB5EBA1B61DB50003A4C92 /* QNMainItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E2709D821B5E335D00130039 /* QNMainTimeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainTimeViewCell.swift; sourceTree = "<group>"; };
 		E2E5B3E61B5CDB19002D3B75 /* QNSelectTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNSelectTaskViewController.swift; sourceTree = "<group>"; };
 		E2F2FEA41B58DA12001398FB /* QNBelowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNBelowView.swift; sourceTree = "<group>"; };
+		E2FB5EBA1B61DB50003A4C92 /* QNMainItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QNMainItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				E2E5B3E61B5CDB19002D3B75 /* QNSelectTaskViewController.swift */,
 				E2709D7C1B5DE8B500130039 /* QNMainTimeViewController.swift */,
 				E20CB7551B5F2FDD00188CAA /* QNMainViewController.swift */,
+				E2FB5EBA1B61DB50003A4C92 /* QNMainItemViewController.swift */,
 			);
 			path = QNMainViewController;
 			sourceTree = SOURCE_ROOT;
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20CB7561B5F2FDD00188CAA /* AppDelegate.swift in Sources */,
+				E2FB5EBB1B61DB50003A4C92 /* QNMainItemViewController.swift in Sources */,
 				E2709D831B5E335D00130039 /* QNMainTimeViewCell.swift in Sources */,
 				E2E5B3E71B5CDB19002D3B75 /* QNSelectTaskViewController.swift in Sources */,
 				E20CB7621B5F327D00188CAA /* QNMainTimeView.swift in Sources */,
