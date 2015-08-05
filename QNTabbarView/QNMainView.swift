@@ -17,7 +17,6 @@ class QNMainView: UIView {
         // Drawing code
     }
     */
-    
     var addImage:UIImageView?
     
     override func drawRect(rect: CGRect) {
@@ -54,13 +53,14 @@ class QNMainView: UIView {
         addButton.addTarget(self, action: "addButtonClick:", forControlEvents: UIControlEvents.TouchUpInside)
         
         //各个项目
-        for i in 1...4 {
+        for i in 0...3 {
             var itemView:QNMainItemView = QNMainItemView()
-            itemView.tag = i
-            itemView.frame = CGRectMake(CGFloat(i)%2 * bounds.width, CGFloat(i)/2 * bounds.height, Utility.kWidth/2, bounds.height/2)
+            itemView.tag = i + 1
+            itemView.setUI()
+            itemView.frame = CGRectMake(((CGFloat(i)%2))  * (bounds.width / 2), floor(CGFloat(i)/2) * (bounds.height / 2), Utility.kWidth/2, bounds.height/2)
             addSubview(itemView)
             var tapGes = UITapGestureRecognizer(target: self, action: "tapClick:")
-            addGestureRecognizer(tapGes)
+            itemView.addGestureRecognizer(tapGes)
         }
         
     }

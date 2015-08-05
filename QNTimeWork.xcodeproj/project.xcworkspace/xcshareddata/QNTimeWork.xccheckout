@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1505E34C-2268-4511-8A1C-F6421140FA2F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>QNTimeWork</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E17B6500BBC781986CF8033896FDE6FAFFEB5EEA</key>
 		<string>https://github.com/gitph101/QNTimeWork.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>QNTimeWork.xcodeproj/project.xcworkspace</string>
+	<string>QNTimeWork.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E17B6500BBC781986CF8033896FDE6FAFFEB5EEA</key>

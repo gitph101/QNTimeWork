@@ -10,6 +10,8 @@ import UIKit
 
 class QNMainItemView: UIView {
     var tapGes:UITapGestureRecognizer?
+    var titleLable:UILabel?
+    var detailLable:UILabel?
     /*
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -18,8 +20,9 @@ class QNMainItemView: UIView {
     }
     */
     func setUI(){
-        tapGes = UITapGestureRecognizer(target: self, action: "tapClick")
-        addGestureRecognizer(tapGes!)
+                titleLable = UILabel(frame: CGRectMake(Utility.kGapW, Utility.kGapH, Utility.kWidth/2, 20))
+        addSubview(titleLable!)
+        titleLable!.text = "这只是一个例子而已"
     }
 
     func tapClick(){
