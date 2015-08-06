@@ -44,6 +44,10 @@ class QNMainViewController: UIViewController {
         mainTimeView = QNMainTimeView()
         mainTimeView?.setUI()
         mainBgView?.addSubview(mainTimeView!)
+        
+        
+        var url:NSURL = NSURL(string: "http://musicdata.baidu.com/data2/lrc/245875468/%E6%B8%85%E5%B9%B3%E8%B0%83.lrc")!
+        
     }
     
     func rightClick(button:UIButton){

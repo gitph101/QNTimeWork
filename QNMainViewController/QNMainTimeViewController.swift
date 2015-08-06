@@ -29,8 +29,6 @@ class QNMainTimeViewController: UIViewController,UITableViewDelegate,UITableView
         view.addSubview(tabbarView!)
         tabbarView!.registerClass(QNMainTimeViewCell.self, forCellReuseIdentifier: "cell")        // Do any additional setup after loading the view.
         tabbarView?.separatorStyle = UITableViewCellSeparatorStyle.None
-    
-
     }
     
     override func didReceiveMemoryWarning() {

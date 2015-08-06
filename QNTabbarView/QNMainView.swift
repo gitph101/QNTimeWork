@@ -32,6 +32,7 @@ class QNMainView: UIView {
     
     
     func setUI(){
+        
         backgroundColor = UIColor.whiteColor()
         //十字线
         var hline:UIView = UIView(frame: CGRectMake(50, bounds.height/2, Utility.kWidth - 50 * 2, 0.5))
@@ -51,13 +52,13 @@ class QNMainView: UIView {
         addButton.addSubview(addImage!)
         
         addButton.addTarget(self, action: "addButtonClick:", forControlEvents: UIControlEvents.TouchUpInside)
-        
+
         //各个项目
         for i in 0...3 {
             var itemView:QNMainItemView = QNMainItemView()
             itemView.tag = i + 1
-            itemView.setUI()
             itemView.frame = CGRectMake(((CGFloat(i)%2))  * (bounds.width / 2), floor(CGFloat(i)/2) * (bounds.height / 2), Utility.kWidth/2, bounds.height/2)
+            itemView.setUI()
             addSubview(itemView)
             var tapGes = UITapGestureRecognizer(target: self, action: "tapClick:")
             itemView.addGestureRecognizer(tapGes)
